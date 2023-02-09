@@ -1,8 +1,35 @@
+body {
+  background-color: #333;
+}
+
 header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 2em;
+}
+
+header ul li {
+  font-size: .9em;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 25% 5% 70%;
+  margin: 0 0 2em 0;
+  background-color: rgb(242, 240, 234);
+}
+
+header h3 {
+  align-self: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.3em;
+  padding-left: 2em;
+}
+
+.card {
+  background-color: rgb(242, 240, 234);
+  margin: 1em;
 }
 
 a {
@@ -15,9 +42,9 @@ a {
 }
 
 #maintop {
-  margin: 2em;
   display: grid;
   grid-template-columns: 30% 65%;
+  padding: 1em;
 }
 
 body {
@@ -25,14 +52,7 @@ body {
 }
 
 #all-books {
-  margin-left: 2em;
   margin-bottom: 2em;
-}
-
-#all-the-books {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 #book {
@@ -41,7 +61,6 @@ body {
 
 #contact {
   margin-left: 2em;
-  font-size: 1.5em;
 }
 
 #contact-info {
@@ -54,5 +73,23 @@ h2 {
 }
 
 #radio {
+  margin-left: 2em;
+}
+
+#name-email {
+  font-size: 1.5em;
+}
+
+.inner-container {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.inner-container img {
+  width: 100%;
+}
+
+.book-summary {
   margin-left: 2em;
 }
