@@ -1,0 +1,58 @@
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: lightcoral;
+}
+
+#headshot-main {
+  width: 100%;
+}
+
+#maintop {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: 30% 65%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#all-books {
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+#all-the-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#book {
+  width: 20%;
+}
+
+#contact {
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+#contact-info {
+  margin-top: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#radio {
+  margin-left: 2em;
+}
