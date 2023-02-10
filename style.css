@@ -72,10 +72,6 @@ h2 {
   margin-bottom: 1em;
 }
 
-#radio {
-  margin-left: 2em;
-}
-
 #name-email {
   font-size: 1.5em;
 }
@@ -92,4 +88,18 @@ h2 {
 
 .book-summary {
   margin-left: 2em;
+}
+
+.interviews {
+  display: flex;
+  justify-content: space-around;
+}
+
+.interviews img {
+  max-width: 300px;
+}
+
+#radio h2 {
+  text-align: center;
+  padding-top: 1em;
 }
